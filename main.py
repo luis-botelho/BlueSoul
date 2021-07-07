@@ -8,7 +8,7 @@ from time import*
 # mixer.music.load('data/TownTheme.mp3')
 # mixer.music.play(-1)
 gameAgain = 'sim'
-while gameAgain[0] != 'N':
+while gameAgain == 'sim' :
     print('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
     print('Bem vindo(a) a Blue Soul')
     print('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
@@ -26,7 +26,8 @@ while gameAgain[0] != 'N':
     player.printStatus()
     part2()
     player.printStatus()
-    part3(player,gameAgain)
+    part3(player)
+    
     
     
 
