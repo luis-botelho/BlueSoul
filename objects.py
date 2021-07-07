@@ -53,5 +53,3 @@ heroi.batalha() # Esta linha tambem tem que apagar.
 
                 
 
-
-
