@@ -47,7 +47,7 @@ class Status():
 
 
 heroi = Status('Seila') # Estas duas linhas são apenas para verificar seu a luta esta correta, apagar no futuro.
-heroi.batalha()
+heroi.batalha() # Esta linha tambem tem que apagar.
 
 
 
