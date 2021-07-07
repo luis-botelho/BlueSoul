@@ -14,9 +14,6 @@ def part2():
         print(i ,end='',flush=True)
     input('\n\nAperte ENTER para continuar')
 def part3(ask,game):
-    option1 = [1,2,3]
-    option2 = [1,2]
-    choice = 1
     part3 = 'Enquanto a distancia entre vocês é encurtada a vida do cavalheiro é perdida a cada galopar do seu cavalo, para quando seu encontro sucede o destino já está traçado. O cavalo cansado e machucado para frente a você, seu instinto indica que já está fora de perigo, sobre ele esta o corpo sem vida do seu companheiro.\n'
     part4 = 'O rugido de um Orc ecoa brutalmente, rasgando o silencio da noite. Você sente o arrepio pelo seu corpo e a morte sussurra ao seu ouvido, o único que você pode sentir é que seu futuro será a morte, uma morte longa e dolorosa, como a do cavalheiro a sua frente.'
     part5 = 'Um Orc caçador corre em sua direção, a sede de sangue nos seus olhos brilha com um vermelho intenso na noite, sua velocidade diminui as distancias entre vocês tão rápido que em segundos você percebe que tem que tomar uma decisão ou a sua morte será inevitável.'
