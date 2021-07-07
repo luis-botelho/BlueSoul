@@ -5,7 +5,7 @@ from pygame import *
 from os import *
 from time import*
 # mixer.init()
-# mixer.music.load('data/TownTheme.mp3')
+# mixer.music.load(' ')
 # mixer.music.play(-1)
 gameAgain = 'sim'
 while gameAgain[0] != 'N':
@@ -27,11 +27,3 @@ while gameAgain[0] != 'N':
     part2()
     player.printStatus()
     part3(player,gameAgain)
-    
-    
-
-        
-
-
-
-
