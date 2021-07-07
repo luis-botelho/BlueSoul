@@ -27,5 +27,3 @@ class Status():
         elif item == 'Ouro':
             self.Ouro = randint(5,20)
 
-
-

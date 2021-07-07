@@ -4,15 +4,15 @@ from Hist import *
 from pygame import *
 from os import *
 from time import*
-mixer.init()
-mixer.music.load('C:\Github/blueMod1\projetos/blueSoulTales\data/TownTheme.mp3')
-mixer.music.play(-1)
+# mixer.init()
+# mixer.music.load('data/TownTheme.mp3')
+# mixer.music.play(-1)
 gameAgain = 'sim'
-while gameAgain != 'NAO':
+while gameAgain[0] != 'N':
     print('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
     print('Bem vindo(a) a Blue Soul')
     print('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
-    input('Aperte enter para continuar')
+    input('\n\nAperte ENTER para continuar')
     system('cls')
     sleep(0.5)
     print('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
@@ -22,15 +22,12 @@ while gameAgain != 'NAO':
     sleep(0.5)
     player = Status(name)
     player.printStatus()
-    # part1()
+    part1()
     player.printStatus()
-    # part2()
+    part2()
     player.printStatus()
-    condition = part3(player)
-    if condition == 'Game Over':
-        gameAgain = gameOver()
-    else:
-        pass
+    part3(player,gameAgain)
+    
     
 
         
