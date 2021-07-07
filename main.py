@@ -4,9 +4,15 @@ from Hist import *
 from pygame import *
 from os import *
 from time import*
+<<<<<<< Updated upstream
 mixer.init()
 mixer.music.load('C:\Github/blueMod1\projetos/blueSoulTales\data/TownTheme.mp3')
 mixer.music.play(-1)
+=======
+# mixer.init()
+# mixer.music.load('C:\Users\BrenBarrios\Desktop\Aulas\Projeto final Modulo 1 _ Blue Soul Kingdom _\BlueSoul\data\TownTheme.mp3')
+# mixer.music.play(-1)
+>>>>>>> Stashed changes
 gameAgain = 'sim'
 while gameAgain != 'NAO':
     print('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
@@ -31,6 +37,7 @@ while gameAgain != 'NAO':
         gameAgain = gameOver()
     else:
         pass
+<<<<<<< Updated upstream
     
 
         
@@ -38,3 +45,5 @@ while gameAgain != 'NAO':
 
 
 
+=======
+>>>>>>> Stashed changes
