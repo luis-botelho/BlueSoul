@@ -46,10 +46,5 @@ class Status():
             print( 'vida Heroi', self.life, 'Vida Orc',inimigo.vida)
 
 
-heroi = Status('Seila') # Estas duas linhas são apenas para verificar seu a luta esta correta, apagar no futuro.
+heroi = Status('Seila')# Estas duas linhas são apenas para verificar seu a luta esta correta, apagar no futuro.
 heroi.batalha() # Esta linha tambem tem que apagar.
-
-
-
-                
-
